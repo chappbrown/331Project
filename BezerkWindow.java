@@ -1,9 +1,18 @@
-import java.awt.BorderLayout;
+import java.awt.BorderLayout;			//fixed imports
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.Dimension;
-
+import java.io.File;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.concurrent.TimeUnit;
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 /**
